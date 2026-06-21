@@ -107,6 +107,15 @@ body {
     radial-gradient(ellipse at 15% 85%, rgba(45,207,192,0.06) 0%, transparent 45%),
     radial-gradient(ellipse at 85% 80%, rgba(200,168,75,0.05) 0%, transparent 40%);
 }
+.hero-logo {
+  width: 140px;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 1px solid var(--glass-border);
+  box-shadow: 0 8px 32px rgba(0,0,0,0.5), 0 0 0 1px var(--border);
+  margin-bottom: 1.5rem;
+}
 .eyebrow {
   font-family: var(--f-display);
   font-size: 0.7rem;
@@ -116,7 +125,7 @@ body {
 }
 .hero-title {
   font-family: var(--f-display);
-  font-size: clamp(3.5rem, 10vw, 8rem);
+  font-size: clamp(2rem, 5vw, 4rem);
   font-weight: 900;
   line-height: 1.0;
   letter-spacing: -0.01em;
