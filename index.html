@@ -27,23 +27,42 @@
     "@context": "https://schema.org",
     "@graph": [
       {
+        "@type": "Person",
+        "@id": "https://opera-sacra.com/#author",
+        "name": "Michael Barnaba",
+        "url": "https://opera-sacra.com",
+        "jobTitle": "Sacred Arts Creator & Author",
+        "worksFor": {
+          "@id": "https://opera-sacra.com/#organization"
+        }
+      },
+      {
+        "@type": "Organization",
+        "@id": "https://opera-sacra.com/#organization",
+        "name": "Opera Sacra",
+        "legalName": "LIQUID SOUND LLC",
+        "url": "https://opera-sacra.com",
+        "founder": {
+          "@id": "https://opera-sacra.com/#author"
+        }
+      },
+      {
         "@type": "WebSite",
         "@id": "https://opera-sacra.com/#website",
         "url": "https://opera-sacra.com",
         "name": "Opera Sacra",
         "description": "Unlock 94 pages of sacred arts wisdom — 7 personal + 8 spiritual chakras mapped to divine harmony and ancient sound healing.",
         "publisher": {
-          "@type": "Person",
-          "name": "Michael Barnaba"
+          "@id": "https://opera-sacra.com/#organization"
         }
       },
       {
         "@type": "Book",
         "@id": "https://opera-sacra.com/#book",
         "name": "Opera Sacra — Sacred Arts Blueprint",
+        "genre": "Spirituality / Sacred Arts",
         "author": {
-          "@type": "Person",
-          "name": "Michael Barnaba"
+          "@id": "https://opera-sacra.com/#author"
         },
         "description": "A 94-page sacred arts text exploring the intersection of spiritual authority, chakra systems (7 personal + 8 spiritual), sacred geometry, and divine harmonic theory.",
         "numberOfPages": 94,
