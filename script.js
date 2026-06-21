@@ -5,11 +5,7 @@ const heroStrings = [
   { id: 'string-friction', freq: 0.016, amp: 9,  phase: 4.3, speed: 0.022 },
 ];
 
-const bookStrings = [
-  { id: 'book-string-1', freq: 0.04, amp: 7, phase: 0,   speed: 0.018, cy: 18 },
-  { id: 'book-string-2', freq: 0.06, amp: 5, phase: 2.1, speed: 0.013, cy: 35 },
-  { id: 'book-string-3', freq: 0.09, amp: 6, phase: 4.3, speed: 0.022, cy: 52 },
-];
+const bookStrings = [];
 
 function buildPath(width, cy, freq, amp, phase, t) {
   const pts = [];
