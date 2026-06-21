@@ -371,7 +371,7 @@ body {
   gap: 4rem;
   align-items: start;
 }
-.book-cover { position: sticky; top: 6rem; }
+.book-cover { position: sticky; top: 6rem; overflow: visible; }
 .book-cover-inner {
   background: var(--glass-bg);
   backdrop-filter: var(--glass-blur);
@@ -381,13 +381,16 @@ body {
   padding: 0;
   text-align: center;
   display: block;
+  overflow: visible;
   box-shadow: 0 24px 64px rgba(0,0,0,0.6), inset 0 1px 0 rgba(255,255,255,0.07);
 }
 .book-cover-img {
   width: 100%;
+  max-width: 100%;
   height: auto;
   display: block;
   border-radius: 8px;
+  object-fit: contain;
 }
 .book-cover-eye {
   font-family: var(--f-display);
