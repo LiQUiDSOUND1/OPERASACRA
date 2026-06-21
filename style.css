@@ -367,7 +367,7 @@ body {
 
 .book-inner {
   display: grid;
-  grid-template-columns: 1fr 2fr;
+  grid-template-columns: 1.4fr 2fr;
   gap: 4rem;
   align-items: start;
 }
