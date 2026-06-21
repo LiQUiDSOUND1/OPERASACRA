@@ -586,6 +586,18 @@ details[open] .faq-q::after { transform: rotate(45deg); }
   letter-spacing: 0.12em;
 }
 
+/* ── SEO ────────────────────────────────────────────────────── */
+.seo-text {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem 2rem 0;
+  font-family: var(--f-body);
+  font-size: 0.875rem;
+  color: var(--muted);
+  line-height: 1.65;
+  opacity: 0.5;
+}
+
 /* ── FOOTER ─────────────────────────────────────────────────── */
 .footer {
   text-align: center;
